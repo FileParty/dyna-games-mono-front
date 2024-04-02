@@ -1,0 +1,30 @@
+{
+  "name": "dyna-games-mono-front",
+  "version": "0.0.0",
+  "description": "다이나믹 게임 모노레포 프론트 React + Vite 프로젝트",
+  "main": "index.js",
+  "repository": "https://github.com/FileParty/dyna-games-mono-front.git",
+  "author": "Kim in sool",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.72.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "recoil": "^0.7.7"
+  }
+}
