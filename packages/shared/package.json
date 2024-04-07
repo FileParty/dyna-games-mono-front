@@ -1,0 +1,12 @@
+{
+  "name": "dyna-games-mono-front-shared",
+  "version": "0.0.0",
+  "description": "공유 컴포넌트 폴더",
+  "main": "index.js",
+  "author": "kis",
+  "license": "MIT",
+  "private": false,
+  "workspaces": [
+    "*/**"
+  ]
+}
